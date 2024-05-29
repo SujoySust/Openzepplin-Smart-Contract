@@ -1,5 +1,5 @@
-const AccessControlContract = artifacts.require("AccessControlContract");
+const AccessControlIERC20 = artifacts.require("AccessControlIERC20");
 
 module.exports = function(deployer) {
-  deployer.deploy(AccessControlContract);
+  deployer.deploy(AccessControlIERC20);
 };
